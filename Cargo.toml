@@ -1,0 +1,8 @@
+[package]
+name = "cnn-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ndarray = { version = "0.16.1", features = [] }
+tch = { version = "0.20", features = [] }
